@@ -1,0 +1,14 @@
+{
+  "name": "Spring-Data-R2DBC-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "loadtest": "^4.1.0",
+    "parcel": "^1.12.4",
+    "rsocket-websocket-client": "^0.0.18"
+  },
+  "scripts": {
+    "js": "parcel build src/main/resources/static/index.html -d target/classes/static"
+  }
+}
